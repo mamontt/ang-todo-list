@@ -1,0 +1,23 @@
+@import "~styles/constants/index";
+
+$font-size-big: 14px;
+$font-weight-thick: 600;
+
+.scroller-column-value {
+    overflow: hidden;
+    padding: 0 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &--bold {
+        font-weight: $font-weight-thick;
+    }
+
+    &--big {
+        font-size: $font-size-big;
+    }
+
+    &--grey {
+        color: $text-label-table;
+    }
+}

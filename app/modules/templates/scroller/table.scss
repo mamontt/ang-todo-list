@@ -1,0 +1,30 @@
+@import '~styles/constants/index';
+
+$height-16: 16px;
+$indent-12: 12px;
+
+.cell-action-button {
+    color: $text-label-table;
+    height: $height-16;
+    margin-left: auto;
+    margin-right: $indent-12;
+}
+
+.cell {
+    display: flex;
+    flex-grow: 1;
+    margin-left: $indent-12;
+    width: 100%;
+}
+
+.cell-value {
+    flex-grow: 1;
+    width: 70%;
+}
+
+.action-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: $indent-12;
+}

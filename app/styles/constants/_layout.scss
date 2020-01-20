@@ -1,0 +1,6 @@
+$base-space: 8px; // All spaces, padding, should be divided by $base-space
+$gutter: $base-space * 3;
+
+$element-spacing-small: $base-space;
+$element-spacing-base: $base-space * 2;
+$element-spacing-large: $base-space * 3;

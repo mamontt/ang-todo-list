@@ -1,0 +1,32 @@
+{
+    "ru": {
+        "document-number": "№ {number} от {documentDate}",
+        "confirmation-modal.title": "Проверить подпись",
+        "confirmation-modal.text": "Действие будет применено к документам: {count} (из {outOf})",
+        "confirmation-modal.cancel-button": "Отменить",
+        "confirmation-modal.confirm-button": "Продолжить",
+  
+        "result-modal.title": "Результат проверки подписи",
+        "results-modal.result-info-text": "Действие было применено к документам: {count} (из {outOf})",
+        "group-actions.result-success-text": "Подпись и данные совпадают для документов: {count}",
+        "group-actions.result-failure-text": "Подпись неверна для документов: {count}",
+        "result-modal.continue-button": "Завершить",
+
+        "group-actions.loading-text": "Загрузка"
+    },
+    "en": {
+        "document-number": "№ {number} от {documentDate}",
+        "confirmation-modal.title": "Проверить подпись",
+        "confirmation-modal.text": "Действие будет применено к документам: {count} (из {outOf})",
+        "confirmation-modal.cancel-button": "Отменить",
+        "confirmation-modal.confirm-button": "Продолжить",
+  
+        "result-modal.title": "Результат проверки подписи",
+        "results-modal.result-info-text": "Действие было применено к документам: {count} (из {outOf})",
+        "group-actions.result-success-text": "Подпись и данные совпадают для документов: {count}",
+        "group-actions.result-failure-text": "Подпись неверна для документов: {count}",
+        "result-modal.continue-button": "Завершить",
+
+        "group-actions.loading-text": "Загрузка"
+    }
+}

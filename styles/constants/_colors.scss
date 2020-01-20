@@ -1,0 +1,45 @@
+@import "~@vtb/fe-ui-theme/styles";
+
+// Colors that are absent in zeplin
+$morning-mist: #f5f7f8; // buttons panel
+$alice-blue: #f8fafc;
+$light-light-granite: #e9ebee; // selected background page-header
+$light-granite: #414951; // button link // trash button
+$medium-granite: #a2adb8; // input border hover
+$medium-shadow: #edeff0; // disabled input
+$input-color: #222528; // input, textarea text color
+$summer-night: #414951; // page-header panel-items // импорт создать buttons
+
+$white: $snow-white;
+// black
+$black-light: #222629;
+$black: #141414;
+// gray
+$gray-light: #e1e4e6;
+$gray: #cecece;
+// gray-blue
+$gray-blue: #818d99;
+$gray-blue-dark: #3e4852;
+
+$dark-granite: #5d6c7a;
+// blue
+$blue-ultra-light: #d4e1f0;
+$blue-light: #5eb7fb;
+$blue-dark: #0a2973;
+// orange
+$orange: #f8a44a;
+// red
+$red: #fc1921;
+// green
+$green: #92cd51;
+// purple
+$purple: #c64c9b;
+
+// from zeplin
+$cool-grey-two: #8996a3;
+$silver: #d8dce1;
+$dark: #111214;
+$pale-grey: $morning-mist;
+$silver-two: $light-granite;
+$seep-sky-blue: $accent-blue-default;
+$slate-grey: #5d6c7a;

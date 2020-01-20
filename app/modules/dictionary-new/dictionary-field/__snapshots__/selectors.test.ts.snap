@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given dictionary-field selectors when  is calling for test case 0 returns expected data 1`] = `Array []`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 0 returns expected data 2`] = `"id"`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 1 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "dummyValueCode",
+    "value": "dummyValueId",
+  },
+]
+`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 1 returns expected data 2`] = `"id"`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 2 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "firstCode",
+    "value": "firstDummyId",
+  },
+  Object {
+    "title": "secondCode",
+    "value": "secondDummyId",
+  },
+]
+`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 3 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "firstCode",
+    "value": "firstDummyId",
+  },
+  Object {
+    "title": "secondCode",
+    "value": "secondDummyId",
+  },
+]
+`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 4 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "firstCode",
+    "value": "firstDummyId",
+    "valueText": "firstDescription",
+  },
+  Object {
+    "title": "secondCode",
+    "value": "secondDummyId",
+    "valueText": "secondDescription",
+  },
+]
+`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 5 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "firstCode",
+    "value": "firstDummyId",
+  },
+  Object {
+    "title": "secondCode",
+    "value": "secondDummyId",
+  },
+]
+`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 6 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "firstDummyId",
+    "value": "firstDummyId",
+  },
+  Object {
+    "title": "secondDummyId",
+    "value": "secondDummyId",
+  },
+]
+`;
+
+exports[`Given dictionary-field selectors when  is calling for test case 7 returns expected data 1`] = `
+Array [
+  Object {
+    "title": "firstCode",
+    "value": "firstDummyId",
+    "valueText": "unknown",
+  },
+  Object {
+    "title": "secondCode",
+    "value": "secondDummyId",
+    "valueText": "unknown",
+  },
+]
+`;

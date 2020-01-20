@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecallCell render RecallCell 1`] = `""`;
+
+exports[`RecallCell render RecallCell with empty cancelReq 1`] = `""`;
+
+exports[`RecallCell render RecallCell with empty row 1`] = `""`;
+
+exports[`RecallCell render RecallCell with executed status 1`] = `""`;
+
+exports[`RecallCell render RecallCell with new status 1`] = `
+<div
+  className="recall-cell"
+>
+  <div
+    className="recall-cell__icon"
+  >
+    <IconComponent
+      alt="common.recall"
+    />
+  </div>
+</div>
+`;

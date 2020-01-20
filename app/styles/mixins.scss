@@ -1,0 +1,20 @@
+@mixin clearfix() {
+    &::after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}
+
+@mixin truncate($width: 300px, $display: block) {
+    display: $display;
+    max-width: $width;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin vertical_align() {
+    align-items: center;
+    display: inline-flex;
+}

@@ -1,0 +1,12 @@
+@import '~styles/constants/index';
+
+.result-content {
+    display: inline-block;
+
+    &__item {
+        display: block;
+        margin-top: 16px;
+
+        @include text-main-font;
+    }
+}

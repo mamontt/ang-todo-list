@@ -1,0 +1,12 @@
+@import "../../styles/constants/index";
+
+.export-form {
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    &__content-toggle {
+        display: inline-block;
+        margin-top: 20px;
+    }
+}

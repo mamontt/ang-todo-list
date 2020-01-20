@@ -1,0 +1,15 @@
+@import "~@vtb/fe-ui-theme/styles";
+
+.text {
+    @include text-main-font;
+
+    &--form-header {
+        @include h2-font;
+    }
+
+    &--form-header-filter {
+        padding: 20px 0 20px 0;
+
+        @include h3-font;
+    }
+}

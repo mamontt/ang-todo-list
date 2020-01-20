@@ -1,0 +1,27 @@
+{
+    "ru": {
+        "document-number": "№ {number} от {documentDate}",
+        "confirmation-modal.title": "Формирование запроса на отзыв",
+        "confirmation-modal.text": "Действие будет применено к документам: {count} (из {outOf})",
+        "confirmation-modal.cancel-button": "Отменить",
+        "confirmation-modal.confirm-button": "Продолжить",
+        
+        "result-modal.title": "Результат формирования запросов на отзыв",
+        "results-modal.result-info-text": "Действие было применено к документам: {count} (из {outOf})",
+        "group-actions.result-success-text": "Документов отправлено: {count}",
+        "group-actions.result-failure-text": "Невозможно отозвать документов: {count}",
+        "result-modal.continue-button": "Подписать и отправить",
+        
+        "translateLoadingText": "Загрузка",
+
+        "save": "Сохранить",
+        "signAndSend": "Подписать и отправить",
+        "cancel": "Отменить",
+
+        "cancelation.reason": "Укажите причину отзыва",
+
+        "createModal.title": "Формирование запроса на отзыв",
+        "createModal.titleMultiple": "Формирование запросов на отзыв",
+        "group-actions.loading-text": "Загрузка"
+    }
+}

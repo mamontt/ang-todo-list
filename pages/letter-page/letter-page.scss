@@ -1,0 +1,29 @@
+.wrap-page {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.wrap-tabs {
+    flex: 0 0 auto;
+}
+
+.wrap-tab-panel {
+    display: flex;
+    flex: 1 1 auto; // IE 10 fix
+    overflow: hidden;
+    position: relative;
+}
+
+.wrap-back-to-top {
+    padding-bottom: 1px;
+}
+
+.wrap-document-signatures {
+    display: flex;
+    height: calc(100vh - 111px);
+}
+
+.wrap-letters-block {
+    height: calc(100vh - 140px);
+}

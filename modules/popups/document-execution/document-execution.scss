@@ -1,0 +1,28 @@
+@import "~styles/constants/index";
+
+.execution-form {
+    &__content {
+        background: $bg-default;
+        margin: -16px -24px;
+        padding: 16px 0;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__form-content {
+        display: flex;
+    }
+
+    &__partial-ucn {
+        flex: 255px;
+    }
+
+    &__partial-date {
+        flex: auto;
+        justify-content: flex-end;
+        padding-left: 24px;
+    }
+}

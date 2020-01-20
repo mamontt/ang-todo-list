@@ -1,0 +1,27 @@
+@import "../../../../styles/constants/index";
+
+.dictionary-scroller-search {
+    align-items: center;
+    display: flex;
+}
+
+.dictionary-scroller-inn-search {
+    display: block;
+    padding: 8px 0 8px 24px;
+
+    &--result-added {
+        padding-bottom: 0;
+    }
+
+    &__result {
+        display: inline-flex;
+        padding: 3px 0;
+
+        @include text-base-font($text-label-table);
+    }
+
+    &__unhandled,
+    &__handled {
+        margin-right: 3px;
+    }
+}

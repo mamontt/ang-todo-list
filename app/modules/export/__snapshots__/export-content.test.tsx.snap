@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportContent should render MultipleExport 1`] = `
+<form
+  className="export-form"
+>
+  <h4>
+    modal.export.type
+  </h4>
+  <FieldedComponent
+    name="type"
+  />
+  <h4>
+    modal.export.extension
+  </h4>
+  <FieldedComponent
+    horizontal={true}
+    name="extension"
+  />
+  <span
+    className="export-form__content-toggle"
+  >
+    <FieldedComponent
+      disabled={true}
+      label="modal.export.split-by-file"
+      name="split"
+    />
+  </span>
+</form>
+`;
+
+exports[`ExportContent should render MultipleExport with toggle 1`] = `
+<form
+  className="export-form"
+>
+  <h4>
+    modal.export.type
+  </h4>
+  <FieldedComponent
+    name="type"
+  />
+  <h4>
+    modal.export.extension
+  </h4>
+  <FieldedComponent
+    horizontal={true}
+    name="extension"
+  />
+  <span
+    className="export-form__content-toggle"
+  >
+    <FieldedComponent
+      disabled={false}
+      label="modal.export.split-by-file"
+      name="split"
+    />
+  </span>
+</form>
+`;

@@ -1,0 +1,7 @@
+.dictionary-wrapper {
+    height: calc(100vh - 64px);
+
+    &-with-search {
+        height: calc(100vh - 150px);
+    }
+}

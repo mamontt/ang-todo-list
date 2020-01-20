@@ -1,0 +1,21 @@
+@import './constants';
+
+// Constants
+$default-width: 100%; // TODO 100% instead $base-width until shade overlay done
+
+.#{$block} {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    height: 100vh;
+    overflow: hidden;
+    width: $default-width;
+
+    &__content-with-scroll {
+        display: flex;
+        flex-grow: 1;
+        overflow-x: hidden;
+        position: relative;
+    }
+}

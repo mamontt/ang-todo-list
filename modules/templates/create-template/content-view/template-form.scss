@@ -1,0 +1,27 @@
+@import '~styles/constants/index';
+
+$label-indent: 16px;
+$input-bottom: 10px;
+$form-padding-bottom: 32px;
+
+.template-form {
+    padding-bottom: $form-padding-bottom;
+}
+
+.template-input {
+    margin-top: $input-bottom;
+}
+
+.template-tip {
+    align-items: center;
+    display: flex;
+}
+
+.template-tip-text {
+    flex-grow: 1;
+    margin-left: $label-indent;
+}
+
+.template-tip-icon {
+    color: $notification-alarm;
+}

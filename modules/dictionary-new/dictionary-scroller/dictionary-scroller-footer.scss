@@ -1,0 +1,9 @@
+.dictionary-footer {
+    align-items: center;
+    display: flex;
+
+    &_with-pagination {
+        justify-content: space-between;
+        padding: 12px 24px;
+    }
+}

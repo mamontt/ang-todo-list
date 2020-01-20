@@ -1,0 +1,10 @@
+@import "~styles/constants/index";
+
+.form-with-comment {
+    display: block;
+
+    &__footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

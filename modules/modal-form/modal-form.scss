@@ -1,0 +1,34 @@
+@import "../../styles/constants/index";
+
+.modal-form {
+    font-family: $font-family-base;
+    font-size: $font-size-p;
+
+    &__content-line {
+        color: $slate-grey;
+        font-family: $font-family-base;
+        font-size: $font-size-p;
+        line-height: 1.43;
+        padding-bottom: $element-spacing-base;
+        white-space: pre-line;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__content {
+        display: block;
+
+        &--with-controls {
+            background: $bg-default;
+            margin: -16px -24px;
+            padding-bottom: 16px;
+        }
+    }
+}

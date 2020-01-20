@@ -1,0 +1,23 @@
+{
+  "name": "@vtb/fe-common-types",
+  "version": "1.0.0",
+  "description": "Package for sharing code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running stubbed 'npm test'\"",
+    "flow": "echo \"Running stubbed 'npm flow'\"",
+    "lint": "echo \"Running stubbed 'npm lint'\"",
+    "build": "echo \"Running stubbed 'npm build'\"",
+    "deploy": "echo \"Running stubbed 'npm deploy'\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://bolshov@gerrit.vtb-dbo.projects.epam.com:31211/fe-common-types"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
